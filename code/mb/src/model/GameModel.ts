@@ -9,7 +9,7 @@ class GameModel {
     /** 規格 */
     public static layout: any = {
         mode: 'mb',
-        stageWidth: null,
-        stageHeight: null
+        stageWidth: 1080,
+        stageHeight: 1920
     }
 }
