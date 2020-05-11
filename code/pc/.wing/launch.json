@@ -1,0 +1,30 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch Wing Player",
+			"type": "chrome",
+			"request": "launch",
+			"file": "index.html",
+			//"url": "http://mysite.com/index.html",
+			"runtimeExecutable": "${execPath}",
+			"sourceMaps": true,
+			"webRoot": "${workspaceRoot}",
+			"preLaunchTask":"build",
+			"port":5956
+		},
+		{
+			"name": "Chrome",
+			"type": "chrome",
+			"request": "launch",
+			"file": "index.html",
+			//"url": "http://mysite.com/index.html",
+			"runtimeExecutable": "",
+			"sourceMaps": true,
+			"webRoot": "${workspaceRoot}",
+			"preLaunchTask":"build",
+			"userDataDir":"${tmpdir}",
+			"port":5956
+		}
+	]
+}

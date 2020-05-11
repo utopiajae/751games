@@ -27,7 +27,7 @@ class Main extends eui.UILayer {
 
 
     private async runGame() {
-        InitLogic.orientation();
+        // InitLogic.orientation();
         await this.loadResource()
         this.createGameScene();
     }

@@ -1,0 +1,17 @@
+{
+	"groups": [
+		{
+			"keys": "",
+			"name": "preload"
+		},
+		{
+			"keys": "",
+			"name": "loading"
+		},
+		{
+			"keys": "",
+			"name": "sound"
+		}
+	],
+	"resources": []
+}
